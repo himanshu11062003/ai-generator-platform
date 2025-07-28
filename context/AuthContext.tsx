@@ -17,7 +17,7 @@
 
 // export const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-// const ADMIN_SECRET_CODE = '95088';
+// const ADMIN_SECRET_CODE = '706162';
 
 // export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 //   const [user, setUser] = useState<User | null>(null);
@@ -115,7 +115,7 @@ interface AuthContextType {
 
 export const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-const ADMIN_SECRET_CODE = '95088';
+const ADMIN_SECRET_CODE = '706162';
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
