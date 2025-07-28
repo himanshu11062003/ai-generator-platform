@@ -197,13 +197,13 @@ const Auth: React.FC = () => {
       let response;
 
       if (mode === 'login') {
-        response = await fetch('http://localhost:3001/auth/login', {
+        response = await fetch('https://multi-component-generator-platform-wazx.onrender.com/auth/login', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ email, password }),
         });
       } else if (mode === 'signup') {
-        response = await fetch('http://localhost:3001/auth/signup', {
+        response = await fetch('https://multi-component-generator-platform-wazx.onrender.com/auth/signup', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ email, password }),
